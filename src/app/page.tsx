@@ -136,7 +136,7 @@ export default function Home() {
           viewport={{ once: true }}
         >
           <div className="container">
-            <h2 className="text-3xl font-bold mb-6">Let's Work Together</h2>
+            <h2 className="text-3xl font-bold mb-6">Let&apos;s Work Together</h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl">
               Hey There, Got a project, job offer or consulting work for me?
             </p>

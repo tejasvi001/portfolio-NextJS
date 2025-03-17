@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CertificationSlider } from "@/components/CertificationSlider";
+import Link from "next/link";
 
 type CategoryType = 'All' | Certification['category'];
 
@@ -116,7 +117,7 @@ export default function CertificationsPage() {
                 </div>
 
                 {cert.link && (
-                  <a
+                  <Link
                     href={cert.link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -124,7 +125,7 @@ export default function CertificationsPage() {
                   >
                     View Certificate
                     <span aria-hidden="true">→</span>
-                  </a>
+                  </Link>
                 )}
               </div>
             </Card>
