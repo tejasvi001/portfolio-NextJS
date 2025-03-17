@@ -10,15 +10,6 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/projects", label: "Projects" },
-  { href: "/achievements", label: "Achievements" },
-  { href: "/certifications", label: "Certifications" },
-  { href: "/contact", label: "Contact" },
-];
-
 const navItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },

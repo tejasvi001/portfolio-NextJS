@@ -45,9 +45,9 @@ export function Footer() {
       <footer className="w-full bg-background text-foreground py-12">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-6">
-            <h2 className="text-3xl font-bold mb-3">Let's work together.</h2>
+            <h2 className="text-3xl font-bold mb-3">Let&apos;s work together.</h2>
             <p className="text-lg text-foreground/80 mb-6">
-              I'm available for Consultancy & Freelancing.
+              I&apos;m available for Consultancy & Freelancing.
             </p>
             <Button
               asChild

@@ -41,7 +41,7 @@ export function ContactForm() {
       } else {
         throw new Error('Failed to send message');
       }
-    } catch (error) {
+    } catch {
       toast({
         title: "Error sending message",
         description: "Please try again later or contact me directly via email.",

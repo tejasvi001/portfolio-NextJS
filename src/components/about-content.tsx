@@ -25,7 +25,7 @@ export default function AboutContent() {
         </div>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">About Me</h1>
         <p className="text-muted-foreground text-lg max-w-[700px] leading-relaxed">
-          I'm a Java Full Stack Developer with a passion for building robust and scalable applications. 
+          I&apos;m a Java Full Stack Developer with a passion for building robust and scalable applications. 
           I combine technical expertise with a strong academic background to deliver efficient solutions.
         </p>
       </div>
@@ -193,8 +193,8 @@ export default function AboutContent() {
           <Card className="p-6 hover:shadow-lg transition-shadow">
             <div className="space-y-4">
               <p className="text-muted-foreground leading-relaxed">
-                I'm an avid traveler who has explored over 25 destinations in the past year. 
-                My interests include reading books and playing cricket. I'm particularly passionate 
+                I&apos;m an avid traveler who has explored over 25 destinations in the past year. 
+                My interests include reading books and playing cricket. I&apos;m particularly passionate 
                 about studying Indian Defence systems and keeping up with developments in military 
                 technology, including weapons and missile systems.
               </p>

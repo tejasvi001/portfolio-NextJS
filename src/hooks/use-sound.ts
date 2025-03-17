@@ -1,8 +1,12 @@
 import { useCallback } from 'react';
 
+interface WebKitAudioContext extends AudioContext {
+  webkitAudioContext: AudioContext;
+}
+
 export function useSound() {
   const play = useCallback(() => {
-    const context = new (window.AudioContext || (window as any).webkitAudioContext)();
+    const context = new (window.AudioContext || (window as unknown as WebKitAudioContext).webkitAudioContext)();
     const oscillator = context.createOscillator();
     const gain = context.createGain();
     
