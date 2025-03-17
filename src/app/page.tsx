@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { SkillsSection } from "@/components/skills-section";
@@ -14,24 +13,24 @@ export default function Home() {
       <section className="hero-wrapper">
         <div className="content-wrapper text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Hi, I'm Tejasvi Vermani
+            Hi, I&apos;m Tejasvi Vermani
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-            Java Developers wear glasses, cuz they can't C#
+            Java Developers wear glasses, cuz they can&apos;t C#
           </p>
           <div className="flex gap-4 justify-center">
-            <a
+            <Link
               href="/projects"
               className="bg-white text-black px-8 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all"
             >
               View Projects
-            </a>
-            <a
+            </Link>
+            <Link
               href="/contact"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-black transition-all"
             >
               Contact Me
-            </a>
+            </Link>
           </div>
         </div>
       </section>

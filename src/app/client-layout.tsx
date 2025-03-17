@@ -10,8 +10,6 @@ import { Footer } from "@/components/footer";
 import { Toaster } from "@/components/ui/toaster";
 import { AnimatePresenceClient } from "@/components/animate-presence-client";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function ClientLayout({
   children,
 }: {

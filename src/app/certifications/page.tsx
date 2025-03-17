@@ -1,13 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { CertificationCarousel } from "@/components/certification-carousel";
 import { PageTransition } from "@/components/page-transition";
 import { certifications, Certification } from "./certifications-data";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { 
-  Award, 
   Calendar,
   Building2,
   Tag,
