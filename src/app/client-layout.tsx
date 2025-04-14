@@ -1,6 +1,5 @@
 "use client";
 
-import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { useState, useEffect } from "react";
 import Loader from "@/components/loader";

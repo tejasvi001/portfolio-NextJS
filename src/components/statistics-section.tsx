@@ -1,8 +1,17 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { CheckCircle, Users, Award, Code } from "lucide-react";
+import { CheckCircle, Users, Award, Code, LucideIcon } from "lucide-react";
 
-const stats = [
+// Define the type for each statistic
+type StatItem = {
+  id: number;
+  title: string;
+  value: number;
+  icon: LucideIcon;
+};
+
+// Data for the statistics section
+const stats: StatItem[] = [
   {
     id: 1,
     title: "PROBLEMS SOLVED ON LEETCODE AND CODECHEF",
@@ -29,7 +38,14 @@ const stats = [
   },
 ];
 
-function AnimatedCounter({ value, duration = 2000 }) {
+// Props for the animated counter
+type AnimatedCounterProps = {
+  value: number;
+  duration?: number;
+};
+
+// Animated number counter component
+function AnimatedCounter({ value, duration = 2000 }: AnimatedCounterProps) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -41,7 +57,7 @@ function AnimatedCounter({ value, duration = 2000 }) {
       if (!startTime) startTime = timestamp;
       const progress = timestamp - startTime;
       const percentage = Math.min(progress / duration, 1);
-      
+
       setCount(Math.floor(percentage * value));
 
       if (percentage < 1) {
@@ -61,6 +77,7 @@ function AnimatedCounter({ value, duration = 2000 }) {
   return <span>{count}</span>;
 }
 
+// Main statistics section component
 export function StatisticsSection() {
   return (
     <section className="py-20 bg-gradient-to-b from-blue-600/10 to-transparent">
@@ -89,4 +106,4 @@ export function StatisticsSection() {
       </div>
     </section>
   );
-} 
+}
