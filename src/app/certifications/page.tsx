@@ -36,7 +36,7 @@ export default function CertificationsPage() {
     <PageTransition>
       <div className="container py-12 md:py-20 max-w-6xl">
         {/* Hero Section */}
-        <div className="text-center mb-12">
+        <div className="text-center pt-12 pb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Certifications & Achievements</h1>
           <p className="text-muted-foreground text-lg max-w-[800px] mx-auto">
             A showcase of my professional certifications, academic achievements, and technical accomplishments. 

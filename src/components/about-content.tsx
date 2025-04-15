@@ -35,6 +35,30 @@ export default function AboutContent() {
         <section>
           <div className="flex items-center gap-2 mb-8">
             <GraduationCap className="w-6 h-6 text-primary" />
+            <h2 className="text-2xl font-bold">Work Experience</h2>
+          </div>
+          <div className="grid gap-6">
+          
+            <Card className="p-6 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold mb-2">Software Developer</h3>
+              <p className="text-muted-foreground mb-3">Kreativan Technologies, Chandigarh India</p>
+              <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary">
+              • Contributed to the development of key features for the Mobile and Web Applications using Flutter, GetX, MongoDB, Spring Boot, and JWT, integrating and creating Restful Apis and Socket.IO leading to improved app functionality. 
+              <br />
+              • Mentored 10+ interns for application development using Android Studio, Java, Spring Boot, Flutter, GetX, Hive, and Firebase, driving development efficiency.
+              <br />
+               • Integrated Maps Support for accurate location tracking and Stripe Payment Gateway for secure payments. 
+               <br />
+               • Deployed real-time applications to Google Play Console and Apple App Store to be used by over 1000 users.
+              </div>
+            </Card>
+            
+            
+          </div>
+        </section>
+        <section>
+          <div className="flex items-center gap-2 mb-8">
+            <GraduationCap className="w-6 h-6 text-primary" />
             <h2 className="text-2xl font-bold">Education</h2>
           </div>
           <div className="grid gap-6">

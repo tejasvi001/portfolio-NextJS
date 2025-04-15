@@ -76,7 +76,7 @@ const socialLinks: SocialLink[] = [
 export default function ContactPage() {
   return (
     <PageTransition>
-      <div className="container mx-auto px-4 md:px-12 lg:px-24 py-12 md:py-20">
+      <div className="container mx-auto px-4 md:px-12 lg:px-24 pt-24 pb-12 md:py-20">
         <div className="max-w-5xl mx-auto">
           {/* Hero Section */}
           <div className="text-center mb-12">
